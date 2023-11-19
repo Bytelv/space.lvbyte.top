@@ -23,11 +23,84 @@ export const me = {
     ],
     education: [
         {
-            name: '顺德一中西南学校',
-            time: '2020-2023',
-            degree: '一名高中生',
+            name: 'Nanjing University of Posts and Telecommunications',
+            time: '2016-2020',
+            degree: 'BS, Computer Science',
             color: 'blue',
             logo : "/static/images/njupt.png",
+        },
+        {
+            name: 'New York Institute of Technology',
+            time: '2016-2020*',
+            degree: 'BS, Computer Science',
+            color: 'yellow',
+            logo : "/static/images/nyit.png",
+        },
+        {
+            name: 'Northeastern University',
+            time: '2021-2022',
+            degree: 'MS, Computer Software Engineering',
+            color: 'red',
+            logo : "/static/images/neu.png",
+        }
+    ],
+    publications: [
+        {
+            title: 'Exploration of Acoustic and Lexical Cues for the INTERSPEECH 2020 Computational Paralinguistic Challenge',
+            authors: [
+                { name: "Ziqing Yang", },
+                {
+                    name: "Zifan An",
+                    me: true
+                },
+                { name: "Zehao Fan" },
+                { name: "Chengye Jing" },
+                { name: "Houwei Cao*" }
+            ],
+            website: "https://sites.google.com/nyit.edu/seniorproject2020-interspeech",
+            link: "https://par.nsf.gov/biblio/10282648-exploration-acoustic-lexical-cues-interspeech-computational-paralinguistic-challenge",
+            tags: [
+                {
+                    name: "INTERSPEECH 2020",
+                    color: "blue"
+                },
+                {
+                    name: "NYIT",
+                    color: "yellow"
+                },
+                {
+                    name: "lexical features",
+                    color: "red"
+                },
+                {
+                    name: "fisher vector",
+                    color: "green"
+                },
+                {
+                    name: "model fusion",
+                    color: "purple"
+                },
+                // {
+                //     name: "Computational Paralinguistic Challenge",
+                //     color: "green"
+                // }
+            ]
+        }
+    ],
+    projects: [
+        {
+            name: "Astraios",
+            description: "A GitHub Star Management App, based on SwiftUI and Combine.",
+            tip: "Coming Soon on App Store",
+            images: ["/static/images/Astraios/4.png", "/static/images/Astraios/3.png", "/static/images/Astraios/2.png", "/static/images/Astraios/5.png", "/static/images/Astraios/7.png"],
+            icon: "/static/images/Astraios/astraios.png",
+        },
+        {
+            name: "Pokémon Recommender",
+            description: "A iOS Pokédex with an original recommendation algorithm that considers multiple factors",
+            tag: ["Web Crawler","Database Design","Recommendation algorithm"],
+            video: "/static/videos/pokemon.mp4",
+            icon: "/static/images/pokemon.png"
         }
     ],
     skills : [[
