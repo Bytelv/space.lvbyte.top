@@ -6,17 +6,7 @@ export const me = {
     name: '异次元de机智君💯',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
-        ...links,
-        {
-            url: 'mailto:541297173@qq.com',
-            icon: Gmail,
-            name: 'Email',
-            fill: "fill-gray-400",
-            border: "border-gray-400",
-            text: "text-gray-400",
-            shadow: "shadow-sky-300",
-            color: 'from-blue-600 to-sky-300',
-        },
+       
     ],
     overview : [
         
