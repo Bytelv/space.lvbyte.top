@@ -6,29 +6,13 @@ export const me = {
     name: '字节君の思想宇宙💯',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
-        ...links,
-        {
-            url: 'mailto:2015078351@qq.com',
-            icon: Gmail,
-            name: 'Email',
-            fill: "fill-gray-400",
-            border: "border-gray-400",
-            text: "text-gray-400",
-            shadow: "shadow-sky-300",
-            color: 'from-blue-600 to-sky-300',
-        }
+        
     ],
     overview : [
         
     ],
     education: [
-        {
-            name: '顺德一中西南学校',
-            time: '2020-2023',
-            degree: 'BS, Computer Science',
-            color: 'blue',
-            logo : "/static/images/njupt.png",
-        }
+        
     ],
     publications: [
 
