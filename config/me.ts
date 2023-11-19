@@ -2,7 +2,7 @@ import { links } from '../config/links'
 import { Gmail, Java, Python , Javascript, Typescript, Swift, Mysql, Realm, Mongodb, Html5, CssThree, ReactJs, Nodedotjs, Nextdotjs, Vuedotjs, Tailwindcss, Spring, Springboot, Stylus , Scikitlearn, Tensorflow, Docker, Git, Redis, Apachehadoop, Postman} from '@icons-pack/react-simple-icons'
 
 export const me = {
-    site: "https://blog.lvbyte.top",
+    site: "https://space.lvbyte.top",
     name: '字节君の思想宇宙💯',
     bio: '💻 🎨 🎮 ⚡️',
     social: [
@@ -23,12 +23,18 @@ export const me = {
     ],
     education: [
         {
-            name: '顺德第一中学西南学校',
+            name: '顺德一中西南学校',
             time: '2020-2023',
-            degree: '普通高中生',
+            degree: 'BS, Computer Science',
             color: 'blue',
             logo : "/static/images/njupt.png",
         }
+    ],
+    publications: [
+
+    ],
+    projects: [
+        
     ],
     skills : [[
         { name: "Java", color: "bg-[#007396]", icon: Java},
