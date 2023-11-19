@@ -16,7 +16,7 @@ export const me = {
             text: "text-gray-400",
             shadow: "shadow-sky-300",
             color: 'from-blue-600 to-sky-300',
-        },
+        }
     ],
     overview : [
         
@@ -39,5 +39,4 @@ export const me = {
     skills : [
         
     ]
-
 }
